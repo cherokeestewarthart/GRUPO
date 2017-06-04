@@ -1,5 +1,10 @@
 extends layout
-
 block content
+  script(type='text/javascript' src='javascripts/index.js')
   h1= title
   p Welcome to #{title}
+  button(onclick="saveuser()") TEST
+  ul
+  each val in mydata
+    li= val.email
+
