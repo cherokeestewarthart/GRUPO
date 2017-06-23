@@ -10,8 +10,8 @@ var users = require('./routes/users');
 var pgp = require('pg-promise')();
 
 var cn = {
-    database: 'cherrytest1',
-    user: 'postgres',
+    database: '',
+    user: '',
     password: ''
 };
 
